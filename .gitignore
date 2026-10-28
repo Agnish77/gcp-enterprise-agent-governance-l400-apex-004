@@ -1,0 +1,43 @@
+# Terraform state and provider binaries
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local / Cloud Shell / IDE directories
+.agents/
+.cache/
+.config/
+.docker/
+.gemini/
+.local/
+.npm/
+.rustup/
+.terraform.d/
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+.profile
+.sudo_as_admin_successful
+.wget-hsts
+README-cloudshell.txt
+agents/hello_agent/deployment_metadata.json
